@@ -72,6 +72,20 @@ print("  hellow".lstrip())
 print("  hellow".rstrip())
 
 
+#slicing (start:stop:step)
+i="vigneshwaran"
+print(i[0])   #call index value get char
+print(i[-1])   #negative index last value
+print(i[0:])  #start to last -1 index
+print(i[:4])  #start to paticular index
+print(i[5:])
+print(i[:])
+print(i[2::2])
+print(i[::-1])
+print(i[1:7:2])
+
+
+
 
  
 
