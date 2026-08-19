@@ -1,0 +1,16 @@
+| Exception              | Meaning                                            | Example                     |
+| ---------------------- | -------------------------------------------------- | --------------------------- |
+| `SyntaxError`          | Invalid Python syntax                              | `if x`                      |
+| `NameError`            | Variable is not defined                            | `print(x)`                  |
+| `TypeError`            | Wrong data type/operation                          | `"10" + 5`                  |
+| `ValueError`           | Correct type but invalid value                     | `int("hello")`              |
+| `IndexError`           | Index doesn't exist                                | `list[10]`                  |
+| `KeyError`             | Dictionary key doesn't exist                       | `dict["age"]`               |
+| `AttributeError`       | Object doesn't have the requested attribute/method | `5.append()`                |
+| `FileNotFoundError`    | File doesn't exist                                 | `open("abc.txt")`           |
+| `ZeroDivisionError`    | Division by zero                                   | `10 / 0`                    |
+| `ImportError`          | Cannot import something                            | `from x import y`           |
+| `ModuleNotFoundError`  | Module cannot be found                             | `import xyz`                |
+| `PermissionError`      | No permission to access a resource                 | Opening restricted file     |
+| `OSError`              | Operating-system-related error                     | File/system operation       |
+| `UnsupportedOperation` | Operation not supported by the file mode           | `open("a.txt","r").write()` |
